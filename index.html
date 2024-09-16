@@ -1,30 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Plus</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-</head>
-<body>
-<section class="container principal">
-<div class="container__caixa">
- <h1 class="container__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1> 
- <img src="Combo.png" alt="Combo do Alura +" class="container__imagem">
- <a href="https://www.alura.com.br/" class="container__botao">Assine por 12x de R$120,00*</a>
- <a href="www.alura.com.br" class="container__botao botao_secundario">Assinar somente o Alura+</a>
- <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
-</div>
-</section>  
+	<head>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+		<title>Barbearia jojo</title>
 
-<section class="container__secundario">
-<img src="Plataformas.png" alt="Computador com as plataformas" class="imagem__segundario">
-<div class="container__descricao">
-<h2 class="descricao__titulo"> assista do seu jeito.</h2>
-<p class="descricao__texto">aproveitar a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos.Nossa seleção de cursos não para de crescer.</p>
-</section>
-</body>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+	</head>
+
+	<body class="body_produtos">
+        <header>
+			<div class="caixa">
+                <h1><img src="logo.png" id="img_titulo"></h1>
+                <nav class="nav-botao">
+                    <ul class="nav-botao-ul">
+                        <li><a class="nav-botao-text" href="index.html">Home</a></li>
+                        <li><a class="nav-botao-text" href="produtos.html">Produtos</a></li>
+                        <li><a class="nav-botao-text" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+			</div>
+        </header>
+
+		<main>
+			<div class="sobre">
+				<div class="text-div">
+					<h2 class="titulo_sobre">Sobre a geeks</h2>
+					<p class="text">Localizada no coração da cidade a geeks traz para o mercado o que há de melhor sobre animes e jogos. Fundada em 2019, a geeks já é destaque na cidade e conquista novos clientes a cada dia</p>        
+						<p class="text">
+							<span id="text_marcados">Nossa missão é: </span>
+							"Proporcionar auto-estima e qualidade de vida aos clientes"
+						<p>   	
+					<p class="text">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.<p>
+				</div>
+				<div class="mapa">
+					<h2 class="titulo_sobre">Nosso estabelecimento</h2>
+					<p class="text">Nosso estabelecimento está localizado no coração da cidade.</p>
+					<div class="iframe_home">
+						<iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72960.5978786155!2d55.271487446629045!3d25.189009736004945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85c07%3A0xa5eda9fb3c93b69d!2sDubai%20Mall!5e1!3m2!1spt-BR!2sbr!4v1726484525473!5m2!1spt-BR!2sbr" width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="Beneficios">
+				<div class="Beneficios_tdiv">
+					<div>
+						<h2 class="titulo_sobre">Benefícios</h2>
+					</div>
+					<div class="Beneficios_div">
+						<img class="img_dir" src="banner.png">
+						<ul class="Beneficios_lista">
+							<li class="text_b">Atendimento aos Clientes</li>
+							<li class="text_b">Espaço diferenciado</li>
+							<li class="text_b">Localização</li>
+							<li class="text_b">Profissionais Qualificados</li>
+							<li class="text_b">Pontualidade</li>
+							<li class="text_b">Limpeza</li>
+						</ul>
+						<img class="img_esq" src="banner.png">
+					</div>
+				</div>
+				<div class="iframe_v">
+					<iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+			<img src="logo-branco.png">
+			<a href="https://www.linkedin.com/in/felipe-santos-bronze-05a080194"><img class="linkedin" src="linkedin.png"></a>
+			<p class="copyright"> &copy; Copyright Barbearia jojo - 2022</p>
+		</footer>
+	</body>
 </html>
